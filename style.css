@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*........
+ google-font
+............. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* 
+.............
+header-start
+..............
+*/
+
+.top-banner{
+    display: flex;
+    width: 95%;
+    height: 550px;
+    background-color: #161616;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    border-radius: 30px;
+}
+.first-header{
+    color: white;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.first-header h1{
+    font-size: 40px;
+}
+.first-header p{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.first-btn{
+    padding: 16px 25px;
+    background-color: #DD0000;
+    color: white;
+    border-radius: 5px;
+}
+.fa-solid{
+    margin-left: 10px;
+}
+.first-image img{
+    width: 500px;
+    height: 530px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
