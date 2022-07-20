@@ -67,6 +67,8 @@ header-start
 /*.............
  second-blog
 .............. */
+
+
 main {
     display: flex;
     margin-top: 80px;
@@ -112,7 +114,6 @@ input[type="submit"] {
     padding: 10px 85px;
     border-radius: 10px;
 }
-
 .article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -139,6 +140,61 @@ input[type="submit"] {
 .fa-regular {
     padding-left: 20px;
 }
+.blog-name{
+    border: 1px solid #fff;
+    background-color: #161616;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+.blog-title{
+    text-align: center;
+    margin-top: 5px;
+}
+input[type="name"]{
+    margin-top: 20px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 10px; 
+}
+
+.flag-name{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.flags{
+    width: 280px;
+    height: 220px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+}
+
+.flag{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 17px;
+}
+h1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.country-name{
+    padding-left: 30px;
+}
+.country{
+    margin-top: 10px;
+}
+.country p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
 .common{
     margin-top: 30px;
     text-align: center;
@@ -186,13 +242,16 @@ footer {
     padding-bottom: 80px;
     color: #B9B9B9;
 }
+.view{
+    display: none;
+}
 
 
 /*..................
 
 tablet-divices
 ....................... */
- @media only screen and (max-width:768px) {
+ @media (max-width:768px) {
     .top-banner{
         display: flex;
         justify-content: center;
@@ -283,7 +342,7 @@ tablet-divices
  mobile-devices 
  ....................*/
 
-@media only screen and (max-width:415px) {
+@media (max-width:415px) {
     .top-banner {
         width: 100%;
         display: block;
@@ -316,7 +375,7 @@ tablet-divices
     }
     .first-image img{
         width: 279px;
-        height: 280px;
+        height: 232px;
         padding-top: 20px;
         margin-left: 40px;
     }
