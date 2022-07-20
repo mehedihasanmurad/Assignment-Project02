@@ -312,6 +312,7 @@ tablet-divices
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         margin-top: 30px;
+        margin-left: 40px;
     }
     .view{
         margin-left: 50%;
