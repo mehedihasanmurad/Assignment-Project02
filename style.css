@@ -1,13 +1,14 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /*........
  google-font
 ............. */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 
 }
@@ -18,7 +19,7 @@ header-start
 ..............
 */
 
-.top-banner{
+.top-banner {
     display: flex;
     width: 95%;
     height: 550px;
@@ -27,29 +28,36 @@ header-start
     margin-top: 2.5%;
     border-radius: 30px;
 }
-.first-header{
+
+.first-header {
     color: white;
     padding-top: 10%;
     padding-left: 5%;
 }
-.first-header h1{
+
+.first-header h1 {
     font-size: 40px;
 }
-.first-header p{
+
+.first-header p {
     font-size: 16px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.first-btn{
+
+.first-btn {
     padding: 16px 25px;
     background-color: #DD0000;
     color: white;
     border-radius: 5px;
+    font-weight: 700;
 }
-.fa-solid{
+
+.fa-solid {
     margin-left: 10px;
 }
-.first-image img{
+
+.first-image img {
     width: 500px;
     height: 530px;
     padding-top: 20px;
@@ -59,12 +67,13 @@ header-start
 /*.............
  second-blog
 .............. */
-main{
+main {
     display: flex;
     margin-top: 80px;
     margin-left: 2.5%;
 }
-.blogs{
+
+.blogs {
     border: 1px solid #fff;
     background-color: #161616;
     border-radius: 10px;
@@ -72,10 +81,13 @@ main{
     height: 250px;
     margin-right: 20px;
 }
-.blog{
+
+.blog {
     text-align: center;
+    margin-top: 5px;
 }
-.input{
+
+.input {
     margin: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -85,31 +97,141 @@ main{
     color: #161616;
     font-weight: 700;
 }
-.init{
+
+.init {
     background-color: red;
     color: #FFFFFF;
     font-weight: 700;
 }
-.article{
-    /* display: flex; */
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 85px;
+    border-radius: 10px;
+}
+
+.article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.players{
+
+.players {
     width: 312px;
     height: 362px;
     border: 1px solid gray;
     border-radius: 10px;
 }
-.btn{
+
+.btn {
     padding: 5px 20px;
     margin: 20px 20px;
 }
-.player-title h3{
+
+.player-title h3 {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.fa-regular{
+
+.fa-regular {
     padding-left: 20px;
+}
+
+/*.........................
+
+footer and end
+.................................
+*/
+footer {
+    margin-top: 130px;
+    background-color: #161616;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: verdana;
+}
+
+.fhead {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.fhead h1 {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: #B9B9B9;
+}
+
+@media only screen and (max-width:415px) {
+    .top-banner {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background-color: #161616;
+        border-radius: 30px;
+    }
+    .first-header{
+        color: white;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .first-header h1{
+        font-size: 30px;
+    }
+    .first-header p{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .first-btn{
+        padding: 5px 10px;
+        background-color: #DD0000;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+    .first-image img{
+        width: 269px;
+        height: 220px;
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+    main{
+        display: block;
+        margin-left: 2.5%;
+    }
+    .blogs{
+        border: none;
+        background-color: white;
+        margin-left: 50px;
+    }
+    .article{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer{
+       margin-top: 0;  
+    }
+   .foot{
+    display: block;
+    color: #B9B9B9;
+   } 
+   .foot h3{
+    padding: 20px;
+   }
 }
