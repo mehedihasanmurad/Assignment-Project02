@@ -28,6 +28,22 @@ header-start
     margin-top: 2.5%;
     border-radius: 30px;
 }
+@keyframes example {
+    0% {background-color: white;}
+    10%{background-color: violet;}
+    20% {background-color: green;}
+    30%{background-color: chartreuse;}
+    40% {background-color: aqua;}
+    50%{background-color: blue;}
+    60% {background-color: red;}
+    70%{background-color: darkorange;}
+    80% {background-color: yellow;}
+    90%{background-color: hotpink;}
+    100% {background-color: purple;}
+}
+.top-banner{
+    animation: example 33s 3s infinite  alternate;
+}
 
 .first-header {
     color: white;
